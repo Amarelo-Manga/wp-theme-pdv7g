@@ -114,3 +114,13 @@ if (file_exists(dirname(__FILE__).'/functions/extras.php')) {
 if (file_exists(dirname(__FILE__).'/functions/template-functions.php')) {
     require_once( dirname(__FILE__).'/functions/template-functions.php' );
 }
+/**
+ *
+ * INC
+ *
+ * Eventos trabalhos realizados
+ * @since 1.0.0
+ */
+if (file_exists(dirname(__FILE__).'/inc/trabalhos-realizados-post-type.php')) {
+    require_once( dirname(__FILE__).'/inc/trabalhos-realizados-post-type.php' );
+}
