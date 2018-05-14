@@ -123,4 +123,5 @@ if (file_exists(dirname(__FILE__).'/functions/template-functions.php')) {
  */
 if (file_exists(dirname(__FILE__).'/inc/trabalhos-realizados-post-type.php')) {
     require_once( dirname(__FILE__).'/inc/trabalhos-realizados-post-type.php' );
+    require_once( dirname(__FILE__).'/inc/filtros-trabalhos-taxonomy.php' );
 }
