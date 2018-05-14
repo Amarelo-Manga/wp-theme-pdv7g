@@ -1,0 +1,33 @@
+#clientes{
+	.gallery-item{
+		display:inline-block;
+	}
+	
+	img{
+		cursor: pointer;
+		max-width: 150px;
+		max-height: 150px;
+		-webkit-filter: unquote("grayscale(80%)");
+	    -moz-filter: unquote("grayscale(80%)");
+	    filter: unquote("grayscale(80%)");
+	    transition: all 100ms ease-in-out;
+		&:hover{
+			-webkit-filter: unquote("grayscale(0)");
+		    -moz-filter: unquote("grayscale(0)");
+		    filter: unquote("grayscale(0)");
+		}
+	}
+}
+#quemsomos{
+
+	p{
+		clear: both;
+	}
+}
+
+
+#contato{
+	iframe{
+		width: 100%;
+	}
+}
