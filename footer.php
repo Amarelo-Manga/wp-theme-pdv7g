@@ -22,7 +22,7 @@
 				?>
 			</div>
 
-			<div class="col-sm-4 col-md-4 col-lg-4 col-xl-6 remove-padding">
+			<div id="menu" class="col-sm-4 col-md-4 col-lg-4 col-xl-6 remove-padding">
 				<nav class="navbar navbar-expand-xl navbar-light">
 					<button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 				    	<span class="navbar-toggler-icon"></span>

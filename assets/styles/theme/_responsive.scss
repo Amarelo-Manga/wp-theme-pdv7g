@@ -1,0 +1,84 @@
+$breakpoint-mobile: 465px;
+@media (max-width: $breakpoint-mobile) {
+  	.navbar-light{ 
+  		text-align: center;
+  		.navbar-toggler{
+  			margin: 0 auto 20px;
+  		}
+  		.navbar-toggler-icon{
+  			font-size: 1.6em;
+    		padding: 0px;
+    		margin:2px;
+  			background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 233, 154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    	}
+  	}
+
+  	#servicos{
+  		padding: 80px 0px;
+  		.texto{
+  			p{
+  				margin-bottom: 30px;
+  			}
+  		}
+  		.servicos{
+  			.col-md-12{
+  				margin-bottom: 15px;
+  			}
+  		}
+  	}
+  	#trabalhos{
+  		padding: 80px 0 100px;
+  		ul{
+  			li{
+  				a{
+  					display: inline-block;
+  					padding: 6px 8px;
+  					margin: 0 2px;
+  				}
+  			}
+  		}
+  		.item-trabalho{
+  			margin-bottom: 5px;
+  			padding: 0px 5px;
+  		}
+  	}
+  	#clientes{
+  		padding: 80px 0;
+  		background-size: contain;
+    	background-repeat: no-repeat;
+    	h4{
+    		margin-bottom: 20px;
+    	}
+    	figure {
+		    margin: 1em 25px;
+		}
+  	}
+
+
+  	#quemsomos{
+  		text-align: center;
+  		padding: 90px 0px 40px;
+  		p{
+  			padding: 0px;
+  		}
+  	}
+
+  	#contato{
+  		height: 890px;
+  		#conteudo{
+  			text-align: center;
+  			padding: 50px 10px;
+  			height: 890px;
+  		}
+  		iframe{
+  			height:890px!important;
+  		}
+  	}
+
+  	footer{
+  		padding-bottom: 20px;
+  		#menu{
+  			display: none;
+  		}
+  	}
+}
