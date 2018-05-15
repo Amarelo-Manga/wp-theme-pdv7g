@@ -19,7 +19,7 @@
 	<header>
 		<div class="container">
 		<div class="row">
-			<div id="logo" class="col-sm-8 col-md-4 col-lg-4 col-xl-3">
+			<div id="logo" class="col-sm-8 col-md-4 col-lg-4 col-xl-4">
 				<?php 
 					$custom_logo_id = get_theme_mod( 'custom_logo' );
 					$logo = wp_get_attachment_image_src( $custom_logo_id , 'full' );
@@ -53,13 +53,6 @@
 						?>
 					</div>
 				</nav>
-			</div>
-			<div id="social" class="widget-top col-sm-12 col-md-4 col-lg-4 col-xl-2 remove-padding">
-				<?php 
-					if ( is_active_sidebar( 'header-top' ) ) {
-						dynamic_sidebar( 'header-top' );
-					};
-				?>
 			</div>
 		</div><!-- Row -->
 		</div><!-- Container -->
