@@ -19,13 +19,31 @@ if ( ! defined( 'WPINC' ) ) { die; }
  */
 function widgets_init() {
 	register_sidebar( array(
-		'name'          => esc_html__( 'Sidebar', 'neat' ),
-		'id'            => 'aa_sidebar_1',
+		'name'          => esc_html__( 'Footer Contato', 'neat' ),
+		'id'            => 'footer_contato',
 		'description'   => '',
 		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
 		'after_widget'  => '</aside>',
-		'before_title'  => '<h1 class="widget-title">',
-		'after_title'   => '</h1>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer Form', 'neat' ),
+		'id'            => 'footer_form',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '<h3 class="widget-title">',
+		'after_title'   => '</h3>',
+	) );
+	register_sidebar( array(
+		'name'          => esc_html__( 'Footer NewsLetter', 'neat' ),
+		'id'            => 'footer_newsletter',
+		'description'   => '',
+		'before_widget' => '<aside id="%1$s" class="widget %2$s">',
+		'after_widget'  => '</aside>',
+		'before_title'  => '',
+		'after_title'   => '',
 	) );
 }
 add_action( 'widgets_init', 'widgets_init' );

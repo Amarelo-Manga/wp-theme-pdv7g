@@ -1,0 +1,28 @@
+h1, h2, h3, h4, p, span, label, input, textarea{
+	font-family: 'Open Sans', sans-serif;
+}
+i{
+	font-family: 'FontAwesome';
+	display: inline-block;
+}
+header{
+	background: #000;
+	h1{
+		padding:0px;
+		margin:0px;
+		img{
+			width:100%;
+		}
+	}
+	.navbar{
+		margin-top: 15px;
+	}
+
+	a{
+		color: #ffe9a7;
+	    padding: 12px 10px;
+	    font-weight: 400;
+	    text-transform: uppercase;
+	    font-size: 1em;
+	}
+}
