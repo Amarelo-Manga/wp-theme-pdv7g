@@ -1,0 +1,50 @@
+footer{
+	background: #000;
+	h2{
+		padding:0px;
+		margin:0px;
+		img{
+			width:100%;
+		}
+	}
+	.navbar{
+		margin-top: 9px;
+	}
+
+	a{
+		color: #fff;
+	    padding: 12px 10px;
+	    font-weight: 100;
+	    text-transform: uppercase;
+	    font-size: 0.9em;
+	}
+	#newsletter{
+		p{
+			padding-top: 7px;
+    		margin: 0px;
+		}
+		input{
+			background: #fff;
+			display:inline-block;
+			padding:10px;
+			font-size: 0.9em;
+			border-radius:3px;
+			max-width: 70%;
+		}
+		input[type=submit]{
+			width: auto;
+		    max-width: 37%;
+		    display: inline-block;
+		    background: #ea148c;
+		    color: #fff;
+		    text-transform: uppercase;
+		    border: 0;
+		    padding: 9px 10px;
+		    margin-left: -7%;
+		    z-index: 999;
+		    position: relative;
+		    font-size: 0.8em;
+		}
+	}
+	
+}
