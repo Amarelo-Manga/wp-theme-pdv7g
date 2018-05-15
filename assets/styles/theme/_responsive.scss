@@ -1,4 +1,21 @@
 $breakpoint-mobile: 465px;
+$breakpoint-tablet: 1025px;
+@media (max-width: $breakpoint-tablet) {
+	.navbar-light{ 
+  		text-align: center;
+  		margin-top: 0px!important;
+    	padding: 0px;
+  		.navbar-toggler{
+  			margin: 0 auto 0px;
+  		}
+  		.navbar-toggler-icon{
+  			font-size: 1.6em;
+    		padding: 0px;
+    		margin:2px;
+  			background-image: url("data:image/svg+xml;charset=utf8,<svg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'><path stroke='rgba(255, 233, 154)' stroke-width='3' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/></svg>");
+    	}
+  	}
+}
 @media (max-width: $breakpoint-mobile) {
   	.navbar-light{ 
   		text-align: center;

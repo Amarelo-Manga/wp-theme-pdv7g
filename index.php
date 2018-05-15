@@ -79,7 +79,7 @@ get_header(); ?>
 							$filtro .= $v->slug." ";	
 						}
 				?>	
-					<div class="col-lg-3 col-md-12 item-trabalho <?php echo $filtro; ?>">
+					<div class="col-lg-2 col-md-12 item-trabalho <?php echo $filtro; ?>">
 						<img src="<?php echo $thumb?>" alt="<?php echo $title; ?>" title="<?php echo $title; ?>" />
 					</div>
 				<?php
