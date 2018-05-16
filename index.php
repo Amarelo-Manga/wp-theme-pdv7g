@@ -65,7 +65,9 @@ get_header(); ?>
 				<?php
 					$args = array(
 								'post_type'		 => 'trabalhos_realizados',
-								'posts_per_page' => -1
+								'posts_per_page' => -1,
+								'orderby' 		 => 'rand',
+    							'order'          => 'ASC'
 							);
 					$trabalhos = get_posts( $args );
 					foreach ($trabalhos as $post) {
