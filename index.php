@@ -70,6 +70,7 @@ get_header(); ?>
     							'order'          => 'ASC'
 							);
 					$trabalhos = get_posts( $args );
+					$cont = 1;
 					foreach ($trabalhos as $post) {
 						$title 		= $post->post_title;
 						$thumb 		= get_the_post_thumbnail_url( $post->ID, 'medium_large', true);
@@ -82,11 +83,32 @@ get_header(); ?>
 						}
 				?>	
 					<div class="col-lg-2 col-md-12 item-trabalho <?php echo $filtro; ?>">
+						<a href="#" data-url="<?php echo $thumb; ?>" data-modal="<?php echo $cont; ?>" title="<?php echo $title; ?>" class="thumbnail">
 						<img src="<?php echo $thumb?>" alt="<?php echo $title; ?>" title="<?php echo $title; ?>" />
+						</a>
 					</div>
 				<?php
+						$cont++;
 					}//endForeach servicos
 				?>
+			</div>
+			<div id="myModal" class="modal fade" tabindex="-1" role="dialog" data-modal="" >
+		  		<div id="modalgaleria" class="modal-dialog modal-lg">
+		  			<div class="modal-content">
+						<div class="modal-header">
+							<button type="button" class="close" data-dismiss="modal">×</button>
+							<h3 class="modal-title">Heading</h3>
+						</div>
+						<div class="modal-body">
+							<img src="" class="img-modal" />
+						</div>
+						<div class="modal-footer">
+							<button id="prev-btn" class="btn btn-warning">Anterior</button>
+					        <button id="next-btn" class="btn btn-primary">Próximo</button>
+							<button class="btn btn-default" data-dismiss="modal">Fechar</button>
+						</div>
+		   			</div>
+		  		</div>
 			</div>
 		</div>
 	</section>

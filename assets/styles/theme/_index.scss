@@ -114,6 +114,27 @@
 			}
 		}
 	}
+
+	#modalgaleria{
+		top: 50px;
+		width: 580px;
+		.modal-header{
+			padding: 5px 10px;
+		}
+		h3{
+			color:#ea148c;
+			font-size: 1.5em;
+			&:after{
+				margin: 5px auto;
+			}
+		}
+		img{
+			max-width: 550px;
+			max-height: 550px;
+			width: auto;
+			height: auto;
+		}
+	}
 }
 
 #clientes{
