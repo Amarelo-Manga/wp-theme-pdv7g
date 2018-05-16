@@ -17,6 +17,9 @@ $breakpoint-tablet: 1025px;
   	}
 }
 @media (max-width: $breakpoint-mobile) {
+	header{
+		    position: initial;
+	}
   	.navbar-light{ 
   		text-align: center;
   		.navbar-toggler{
@@ -75,7 +78,7 @@ $breakpoint-tablet: 1025px;
     		margin-bottom: 20px;
     	}
     	figure {
-		    margin: 1em 25px;
+		    margin: 10px;
 		}
   	}
 

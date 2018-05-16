@@ -17,6 +17,25 @@
 			}
 		});
 
+		// Ancora Scroll
+		$(".menu-item a").click(function() {
+		    var href = $(this).attr('href');
+		    $('html, body').animate({
+		        scrollTop: $(href).offset().top
+		    }, 2000);
+		});
+		// Menu Scroll
+	  	$(window).scroll(function() {
+		    var height = $(window).scrollTop();
+		    var some_number = 200;
+		    if(height > some_number) {
+		       	$('#contentmenu').addClass('scroll');
+		    }else{
+		    	$('#contentmenu').removeClass('scroll');
+		    }
+		});
+
+
 		/*
 		 * Modal Trabalho 
 		 * Next e Prev
