@@ -17,6 +17,11 @@ footer{
 	    font-weight: 100;
 	    text-transform: uppercase;
 	    font-size: 0.9em;
+
+	    &:hover{
+	    	text-decoration: none;
+	    	color: #fff;
+	    }
 	}
 	#newsletter{
 		p{
